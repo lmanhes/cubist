@@ -1,0 +1,44 @@
+# Cubist engine inspector — warm "book cloth" theme. All visual identity
+# lives here (native theming, not inline CSS): cream ground, near-black ink, clay accent,
+# Space Grotesk headings + JetBrains Mono for the law "programs".
+[theme]
+base = "light"
+primaryColor = "#CC785C"               # clay / book cloth — buttons, active elements
+backgroundColor = "#F0EEE6"            # cream ground
+secondaryBackgroundColor = "#F7F6F1"   # cards, widgets
+textColor = "#1F1E1C"                  # near-black ink
+linkColor = "#A65B43"                  # darker clay
+borderColor = "#E3E0D6"
+codeBackgroundColor = "#F5F3EC"        # the program canvas
+codeTextColor = "#5A3D30"
+dataframeHeaderBackgroundColor = "#EFEADB"
+dataframeBorderColor = "#E3E0D6"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "10px"
+linkUnderline = false
+
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+headingFont = "'Space Grotesk':https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+baseFontSize = 15
+codeFontSize = "12.5px"
+headingFontSizes = ["30px", "23px", "18px", "15px", "13px", "12px"]
+headingFontWeights = [600, 600, 600, 500, 500, 500]
+
+# semantic palette — used by badges, colored text, and status throughout the app
+greenColor = "#4E8A5B"
+orangeColor = "#C8923A"
+redColor = "#B5503C"
+blueColor = "#3F6E8C"
+violetColor = "#7A6B9A"
+grayColor = "#8A857A"
+
+# warm categorical palette for Plotly/Altair charts (clay-led)
+chartCategoricalColors = ["#CC785C", "#4E8A5B", "#C8923A", "#3F6E8C", "#7A6B9A", "#B5503C", "#8A857A"]
+chartSequentialColors = ["#F5F3EC", "#EAD9C9", "#E0BFA6", "#D6A582", "#CC785C", "#BB6A4F", "#A65B43", "#8C4A36", "#6E3A2B", "#4F2920"]
+
+[theme.sidebar]
+backgroundColor = "#FAF9F5"
+secondaryBackgroundColor = "#F0EEE6"
+borderColor = "#E3E0D6"
